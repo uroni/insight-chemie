@@ -1,0 +1,1 @@
+modelsize=atomradius*0,4

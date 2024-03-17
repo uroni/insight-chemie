@@ -1,0 +1,38 @@
+local name="Thymin";
+local m={};
+
+m.c1=CreateAtom("Kohlenstoff", name, 1143.55, -498.716, -142.357);
+m.c2=CreateAtom("Kohlenstoff", name, 1790.4, -257.641, -703.325);
+m.c3=CreateAtom("Kohlenstoff", name, 282.225, -348.309, -294.923);
+m.c4=CreateAtom("Kohlenstoff", name, 1453.48, -929.712, 573.005);
+m.h1=CreateAtom("Wasserstoff", name, 1213.7, -574.736, 1196.22);
+m.h2=CreateAtom("Wasserstoff", name, 1198.67, -1648.8, 540.323);
+m.h3=CreateAtom("Wasserstoff", name, 2231.46, -905.925, 503.301);
+m.o1=CreateAtom("Sauerstoff", name, -168.452, -1055.41, -79.6094);
+m.a1=CreateAtom("Stickstoff", name, 89.2852, 442.567, -620.99);
+m.h4=CreateAtom("Wasserstoff", name, -480.934, 142.479, -1004.76);
+m.c5=CreateAtom("Kohlenstoff", name, 689.532, 308.179, -1270.63);
+m.o2=CreateAtom("Sauerstoff", name, 55.1167, 265.901, -1869.09);
+m.a2=CreateAtom("Stickstoff", name, 1584.1, 216.61, -1352.09);
+m.a3=CreateAtom("Rest", name, 1659.51, 851.032, -835.876);
+m.h5=CreateAtom("Wasserstoff", name, 2556.52, -187.96, -785.382);
+Connect(m.c1, m.c3);
+Connect(m.c2, m.c1);
+Connect(m.c1, m.c4);
+Connect(m.c4, m.h3);
+Connect(m.c4, m.h1);
+Connect(m.c4, m.h2);
+Connect(m.c2, m.c1);
+Connect(m.c3, m.o1);
+Connect(m.c3, m.o1);
+Connect(m.a1, m.c3);
+Connect(m.a1, m.h4);
+Connect(m.a1, m.c5);
+Connect(m.c5, m.o2);
+Connect(m.c5, m.o2);
+Connect(m.c5, m.a2);
+Connect(m.c2, m.a2);
+Connect(m.a2, m.a3);
+Connect(m.c2, m.h5);
+
+RegisterMolecule(name, m);

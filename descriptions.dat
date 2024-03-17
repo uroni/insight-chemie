@@ -1,0 +1,40 @@
+descriptions
+{
+catom_core_exp=Kernsimulation// Exponent der Kraft, die die Protonen und Neutronen bei der Kernsimulation zusammenhält.
+catom_core_coreforcescale=Kernsimulation// Konstante der Kraft, die die Protonen und Neutronen bei der Kernsimulation zusammenhält.
+catom_draw_elcoreline=Kernsimulation// Soll eine Linie von den Elektronen zu dem Kern bei der Kernsimulation gezeichnet werden? "true" für ja und "false" für nein.
+catom_numsteps=Kernsimulation// Anzahl der Schritte, die ein Atomkern bei einer Kernsimulation vor dem hinzufügen zur Simulation durchläuft.
+catom_stepsize=Kernsimulation// Größe der Schritte, die ein Atomkern bei einer Kernsimulation vor dem hinzufügen zur Simulation durchläuft.
+catom_elektron_force=Kernsimulation// Skalar der Abstoßungskraft der Elektronen eines Kerns
+catom_connection_forcescale=Skalar der Anziehungskraft von Mehrfachbindungen zur Mitte der Bindung
+catom_inter_connection_distance_multi=Legt die Distanz zwischen zwei verbundenen Atomen fest.
+catom_inter_connection_forcescale=Skalar der Kraft zwischen zwei verbundnen Atomen.
+catom_connection_backdrift=Skalar der Abstoßung von Mehrfachbindungen voneinander.
+catom_connection_centerscale=Skalar des Bestrebens von Verbindungen zweier Atome zur Mitte der der zwei verbunden Atome
+catom_connection_size=Dicke der Verbindungen. Wird nur beim Erstellen der Verbindungen gebraucht.
+catom_connection_length=Länge der Verbindungen.
+catom_bank_distance=Distanz der Elektronenbänke von der Atomhülle.
+catom_connection2bank_force=Abstoßung von Elektronenbänken von Verbindungen.
+catom_bank_force=Abstoßung der Elektronenbänke untereinander.
+catom_bank2connection_force=KAbstoßung von Verbindungen von Elektronenbänken.
+catom_connection2connection_force=Abstoßung von Verbindungen untereinander.
+catom_change_cap=catom_allow_freeze=1// Legt fest, ab wann ein Atom verfestigt wird.
+catom2catom_force_scale=Legt fest, wie stark sich Atome untereinander abstoßen.
+catom2catom_distance_cap=Legt fest, ab welcher Entfernung sich Atome nur noch abstoßen
+catom_allow_freeze=Legt fest, ab Atome verfestigt werden dürfen. "0" für nein und "1" für ja.
+mouse_wheel_unit=Dieser Wert bestimmt wie stark ein Atom mit dem Mausrad auf die Camera zu und wegbewegt wird.
+camera_default_distance=Startwert der Entfernung der Kamera vom Geschehen.
+camera_mouse_scale=Faktor zur Veränderung der Geschwindigkeit beim Rotieren der Objekte. (Linke und Rechte Maustaste gedrückt)
+catom_connection_visible_distance=Bis zu dieser Distanz sind Verbindungen vollständig sichtbar.
+catom_connection_transparent_distance=Bis zu dieser Distanz werden Verbindungen langsam unsichtbar.
+camera_position_center_speed=Gibt an, wie schnell die Kamera auf das Geschehen zurückfährt.
+camera_target_center_speed=Gibt an, wie schnell die Kamera auf das Geschehen zurückfährt.
+camera_zoom_scale=Faktor zur Veränderung der Geschwindigkeit beim Zoomen. (Rechte Maustaste gedrückt)
+camera_zoom_min_distance=Minimale Entfernung der Kamera zum Objekt
+time_cap=Maximale Zeit zwischen zwei Frames. (Verhindert instabilitäten beim Fensterwechsel)
+mouse_wheel_camera_unit=Anzahl an Einheiten, um die das Mausrad die Camera in das Geschehen zoomt.
+auto_slow_down=Schaltet das langsame Absenken der Simulationsgeschwindigkeit bei untätigkeit mit "0" ab und mit "1" an.
+auto_slow_down_time=Legt die Zeit fest in der die Simulationsgeschwindigkeit vom Startwert auf 0 abgesenkt wird, wenn auto_slow_down=1.
+catom_connection_distance_cap_sq=Quatrierte Entfernung, ab wann Kräfte zwischen Verbindungen angewendet werden.
+catom_plane_force=Bestimmt die Kraft mit der ein Atom in eine Ebene gezogen wird, im Falle eines durch eine Doppelbindung ebenes Molekül
+}

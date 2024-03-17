@@ -1,0 +1,32 @@
+local name="Benzol";
+local m={};
+
+m.c1=CreateAtom("Kohlenstoff", name, -249.863, 747.209, 2569.58);
+m.c2=CreateAtom("Kohlenstoff", name, -863.826, 95.0402, 2611.51);
+m.h1=CreateAtom("Wasserstoff", name, 512.461, 759.909, 2503.91);
+m.h2=CreateAtom("Wasserstoff", name, -837.522, -670.046, 2606.55);
+m.c3=CreateAtom("Kohlenstoff", name, -386.08, 1631.71, 2621.9);
+m.c4=CreateAtom("Kohlenstoff", name, -1753.49, 193.127, 2656.65);
+m.c5=CreateAtom("Kohlenstoff", name, -1875.06, 1077.8, 2673.93);
+m.c6=CreateAtom("Kohlenstoff", name, -1272.25, 1720.49, 2677.25);
+m.h3=CreateAtom("Wasserstoff", name, -2135.68, -470.277, 2662.46);
+m.h4=CreateAtom("Wasserstoff", name, -2495.06, 1529.82, 2698.27);
+m.h5=CreateAtom("Wasserstoff", name, 263.569, 2039, 2587.24);
+m.h6=CreateAtom("Wasserstoff", name, -1748.74, 2321.05, 2711.35);
+Connect(m.c1, m.c2);
+Connect(m.c1, m.c2);
+Connect(m.c2, m.h2);
+Connect(m.c1, m.h1);
+Connect(m.c1, m.c3);
+Connect(m.c2, m.c4);
+Connect(m.c3, m.c6);
+Connect(m.c3, m.c6);
+Connect(m.c4, m.c5);
+Connect(m.c4, m.c5);
+Connect(m.c5, m.c6);
+Connect(m.c4, m.h3);
+Connect(m.c5, m.h4);
+Connect(m.c3, m.h5);
+Connect(m.c6, m.h6);
+
+RegisterMolecule(name, m);

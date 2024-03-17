@@ -1,0 +1,34 @@
+local name="Cytosin";
+local m={};
+
+m.a1=CreateAtom("Stickstoff", name, 1315.67, 564.582, -78.5486);
+m.a2=CreateAtom("Rest", name, 1313.68, 409.66, -883.108);
+m.c1=CreateAtom("Kohlenstoff", name, 1461.06, -194.801, 37.5538);
+m.c2=CreateAtom("Kohlenstoff", name, 723.098, -676.6, 88.6137);
+m.c3=CreateAtom("Kohlenstoff", name, -139.749, -484.577, 33.0399);
+m.a3=CreateAtom("Stickstoff", name, -721.098, -1135.88, 109.029);
+m.h1=CreateAtom("Wasserstoff", name, -236.552, -1502.51, -375.384);
+m.h2=CreateAtom("Wasserstoff", name, -389.948, -1308.52, 764.312);
+m.a4=CreateAtom("Stickstoff", name, -410.124, 341.659, -100.005);
+m.c4=CreateAtom("Kohlenstoff", name, 410.079, 740.167, -133.966);
+m.o1=CreateAtom("Sauerstoff", name, 10.4326, 1502.76, -261.686);
+m.h3=CreateAtom("Wasserstoff", name, 2233.55, -190.745, 64.4349);
+m.h4=CreateAtom("Wasserstoff", name, 635.614, -1426.22, 198.395);
+Connect(m.a1, m.a2);
+Connect(m.c2, m.c1);
+Connect(m.c2, m.c1);
+Connect(m.a1, m.c1);
+Connect(m.c2, m.c3);
+Connect(m.c3, m.a3);
+Connect(m.a3, m.h2);
+Connect(m.h1, m.a3);
+Connect(m.c3, m.a4);
+Connect(m.c3, m.a4);
+Connect(m.c4, m.a4);
+Connect(m.c4, m.o1);
+Connect(m.c4, m.o1);
+Connect(m.a1, m.c4);
+Connect(m.c1, m.h3);
+Connect(m.c2, m.h4);
+
+RegisterMolecule(name, m);
