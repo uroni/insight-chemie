@@ -6,6 +6,10 @@ Uses LUA for scripting and as save format.
 
 Uses web technology with JavaScript for first start tutorial.
 
+Translated description:
+
+An interactive molecular simulation program. The program autonomously constructs a standalone molecule based solely on the information of which atoms are connected and how. It utilizes the interacting forces to spatially represent the molecule. Thus, stick models from chemistry classes are no longer necessary: within the program, individual atoms can be added and connected. This process creates unique new molecules that can be saved and exchanged. Any molecule can be loaded, displayed, edited, and saved again from an extensive molecular database. As an additional feature, pairs and groups of molecules can react with each other to form different molecules. New reactions can be added using the simple scripting language LUA. Presentations in the style of PowerPoint can also be created, where the individual steps of a reaction can be demonstrated. This way, molecules and reaction mechanisms can be vividly presented.
+
 Some screenshots:
 
 ![Moleculedb_full](https://github.com/uroni/insight-chemie/assets/2711429/b5a73db0-2917-4195-a2e0-5e11fa24f1fc)
